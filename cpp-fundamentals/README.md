@@ -6,19 +6,19 @@ We do assume that you have basic programming knowledge and are cognizant of comm
 
 ### Getting started
 
-To run C++ code, you will need a **compiler**. &#x20;
+To run C++ code, you will need a **compiler**. Alternatively, you can also use an online compiler like [JDoodle](https://www.jdoodle.com/online-compiler-c++17) to follow along.&#x20;
 
 #### Mac
 
-To check if you have the `clang` compiler installed, run:
+To check if you have the `clang++` compiler installed, run:
 
-```
-clang --version
+```bash
+clang++ --version
 ```
 
 If not, you can install it via:
 
-```
+```bash
 xcode-select --install
 ```
 
@@ -36,13 +36,13 @@ On Windows, the setup process varies. The simplest option is to install an Integ
 
 To check if you have the `g++`  compiler installed, you can check via:
 
-```
+```bash
 g++ --version
 ```
 
 If it is not installed, you can install it via your favourite package manager.
 
-```
+```bash
 sudo apt update
 sudo apt update g++
 ```
