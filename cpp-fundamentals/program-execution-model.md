@@ -57,13 +57,13 @@ If you happen to be curious:
 
 Compiling a C++ source code is usually a 4 step process. It composes of&#x20;
 
-**a) preprocessing** where we substitute macros and header files with their actual content
+**a) Preprocessing** where we substitute macros and header files with their actual content
 
-**b) compilation** from C++ to platform-specific assembly
+**b) Compilation** from C++ to platform-specific assembly
 
-**c) assemble** where the resultant assembly code is assembled into actual object code
+**c) Assemble** where the resultant assembly code is assembled into actual object code
 
-**d) linking** to link external library functions that the executable needs
+**d) Linking** to link external library functions that the executable needs
 
 You can even pause the compilation process at each stage to inspect the immediate outputs using varying CLI flags.
 
