@@ -22,7 +22,7 @@ Breaking it down:
 <table><thead><tr><th width="190.94439697265625">Code</th><th>What it does</th></tr></thead><tbody><tr><td><pre><code>#include &#x3C;iostream>
 </code></pre></td><td>Brings in the standard I/O library so that we can use things like <code>std::cout</code></td></tr><tr><td><pre><code>int main() {
 </code></pre></td><td><p>The entry point of every C++ program.</p><p></p><ul><li><code>int</code>  indicates the return type of the function </li><li><code>main</code> is the function name.</li></ul></td></tr><tr><td><pre><code>std::cout &#x3C;&#x3C; "Hel...
-</code></pre></td><td><p>Prints the text to the consofff</p><p></p><p>👉 You can remember <code>&#x3C;&#x3C;</code> as <em>pushing</em> the text into the output stream (i.e <code>std::cout</code> in this case)</p></td></tr><tr><td><pre><code>return 0;
+</code></pre></td><td><p>Prints the text to the console.</p><p></p><p>👉 You can remember <code>&#x3C;&#x3C;</code> as <em>pushing</em> the text into the output stream (i.e <code>std::cout</code> in this case)</p></td></tr><tr><td><pre><code>return 0;
 </code></pre></td><td><p>Recall that <code>int</code> is the return type of the <code>main</code> function.</p><p></p><p>Hence, at the end of our <code>main</code> function, we should<sup>[1]</sup> return an int.</p><p></p><p>You can return anything, really. But usually returning 0 indicates our program has successfully executed.</p></td></tr></tbody></table>
 
 {% hint style="info" %}
