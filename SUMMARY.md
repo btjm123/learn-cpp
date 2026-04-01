@@ -1,15 +1,11 @@
 # Table of contents
 
-* [README](README.md)
-* [Welcome!](welcome.md)
+* [Welcome!](README.md)
 * [C++ Fundamentals](cpp-fundamentals/README.md)
   * [Program Execution Model](cpp-fundamentals/program-execution-model.md)
   * [Basic Syntax & I/O](cpp-fundamentals/basic-syntax-and-i-o.md)
   * [Variables](cpp-fundamentals/variables.md)
-  * [Control Flow](cpp-fundamentals/control-flow/README.md)
-    * [Conditionals](cpp-fundamentals/control-flow/conditionals.md)
-    * [Loops](cpp-fundamentals/control-flow/loops.md)
-    * [Functions](cpp-fundamentals/control-flow/functions.md)
+  * [Control Flow](cpp-fundamentals/control-flow.md)
 * [Memory & Ownership](memory-and-ownership/README.md)
   * [Memory Model](memory-and-ownership/memory-model.md)
   * [Scope & Lifetime](memory-and-ownership/scope-and-lifetime.md)

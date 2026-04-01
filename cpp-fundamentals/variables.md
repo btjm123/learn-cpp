@@ -46,3 +46,34 @@ x = 10;     // assignment
 int y = 10; // declaration + initialisation
 ```
 {% endcode %}
+
+### Arithmetic Operators
+
+You can also perform arithmetic operations just like how you would do in normal math:
+
+{% code title="main.cpp" %}
+```cpp
+int x = 10;
+int y = 12;
+
+int sum = x + y;
+int difference = x - y;
+int product = x * y;
+double quotient = x / y; // note that we use the double here
+int remainder = x % y;
+
+int expression = ((x + y) * (x - y));
+```
+{% endcode %}
+
+{% hint style="info" %}
+⚠️ Common Pitfall
+
+Integer division **truncates** the division&#x20;
+
+So `10 / 12 = 0` instead of `0.83`&#x20;
+{% endhint %}
+
+### Exercise
+
+Extending from our previous exercise, we now want to support different operations beyond addition. Our mini-calculator should now be able to add, subtract, multiply and divide two numbers!
