@@ -157,13 +157,14 @@ int main() {
 
 ⭐ Write a function `countdown(int n)` that takes in a number `n` and prints from `n` down to 1.
 
-{% code title="countdown(5)
+{% code title="" %}
+```shellscript
+countdown(5)
 5
 4
 3
 2
-1" %}
-```shellscript
+1
 ```
 {% endcode %}
 
