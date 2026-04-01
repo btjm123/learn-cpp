@@ -152,3 +152,35 @@ int main() {
 }
 ```
 {% endcode %}
+
+### Exercise(s)
+
+⭐ Write a function `countdown(int n)` that takes in a number `n` and prints from `n` down to 1.
+
+{% code title="countdown(5)
+5
+4
+3
+2
+1" %}
+```shellscript
+```
+{% endcode %}
+
+⭐⭐ Write a program that hardcodes a secret number. It will repeatedly ask the user to guess. Depending on the user's guess, the program will feedback **Too low, Too high** or **Correct.**
+
+{% code title="" %}
+```
+Guess the number: 50
+Too high
+
+Guess the number: 25
+Too low
+
+Guess the number: 30
+Too low
+
+Guess the number: 42
+Correct!
+```
+{% endcode %}
