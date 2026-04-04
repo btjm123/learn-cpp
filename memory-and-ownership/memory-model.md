@@ -33,15 +33,13 @@ To jog your memory, all the previous variable declarations in  [variables.md](..
 ```cpp
 int main () {
     int x = 5;
-    int arr[3] = {10, 20, 30}; 
-    
-    int x = 10;
     int* p = &x;
-    
+    int arr[3] = {10, 20, 30};     
     // this copies the string literal onto the array on the stack
     char str[] = "hello";
     
-    // BELOW HOWEVER IS NOT ON STACK, since it's pointing to read-only memory
+    // the pointer str2 is on stack
+    // the string literal world is stored in ROM
     const char* str2 = "world"; 
 }
 ```
@@ -146,7 +144,7 @@ int main()
 
 </details>
 
-You can use a `new` keyword to allocate memory. Unlike the stack, the heap memory is not tied to scope. It persists until it is explictly deallocated with `delete.`
+You can use a `new` keyword to allocate memory on the heap. Unlike the stack, the heap memory is not tied to scope. It persists until it is explictly deallocated with `delete.`
 
 Let's take a look at how heap tackles these limitations:
 
@@ -215,7 +213,7 @@ int main() {
 ```
 {% endcode %}
 
-The above is an example of [**undefined behavior**](https://stackoverflow.com/questions/28727439/is-it-undefined-behavior-to-dereference-a-dangling-pointer)**.** For me, it prints 0 but the C++ standard makes no guarantees what about what happens.&#x20;
+The above is an example of [**undefined behavior**](https://stackoverflow.com/questions/28727439/is-it-undefined-behavior-to-dereference-a-dangling-pointer)**.** For me, it prints 0 but the C++ standard makes no guarantees about what happens.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.38.40 PM.png" alt=""><figcaption></figcaption></figure>
 

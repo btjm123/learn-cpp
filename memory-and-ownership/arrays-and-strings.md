@@ -30,7 +30,7 @@ What about `arr[1]`? The cool thing about pointer arithmetic is that it's **type
 
 Functionally,
 
-<table><thead><tr><th width="243.72222900390625">Operation</th><th>Result</th></tr></thead><tbody><tr><td><code>*p_arr</code></td><td>Move <code>p_arr</code> by 0 bytes, derefeence to get <code>arr[0]</code></td></tr><tr><td><code>*(p_arr + 1)</code></td><td>Move <code>p_arr</code> by 4 bytes, derefeence to get <code>arr[1]</code></td></tr><tr><td><code>*(p_arr + 2)</code></td><td>Move <code>p_arr</code> by 8 bytes, derefeence to get <code>arr[2]</code></td></tr></tbody></table>
+<table><thead><tr><th width="243.72222900390625">Operation</th><th>Result</th></tr></thead><tbody><tr><td><code>*p_arr</code></td><td>Move <code>p_arr</code> by 0 bytes, dereference to get <code>arr[0]</code></td></tr><tr><td><code>*(p_arr + 1)</code></td><td>Move <code>p_arr</code> by 4 bytes, dereference to get <code>arr[1]</code></td></tr><tr><td><code>*(p_arr + 2)</code></td><td>Move <code>p_arr</code> by 8 bytes, dereference to get <code>arr[2]</code></td></tr></tbody></table>
 
 Note that `arr` is also decays into a pointer to the first element that shares the same memory address as `p_arr`, hence operations that can be done with `arr` can also be done with `p_arr`&#x20;
 
@@ -104,7 +104,7 @@ Notice when we compile, we get a warning:
 
 <details>
 
-<summary>😕 Why the warning?</summary>
+<summary>😕 Why the warning for <code>char str2*</code> but not <code>char str[]</code> ?</summary>
 
 `"hello"`  is a string literal stored in read-only memory.
 
