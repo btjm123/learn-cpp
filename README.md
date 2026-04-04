@@ -12,6 +12,12 @@ In this guide, I'll be gently introducing modern C++, walk through some common p
 
 Unlike purely managed languages, C++ does not shy away from the messy details. Instead, it forces one to understand what your program is actually doing. This includes understanding how memory layout, object lifetimes and resource management actually works. While this might appear initially uncomfortable, it helps builds deep intuition about how computers actually work.
 
+### Using this guide
+
+If you are new to C++, you are highly encourage to read through the content in order. The guide walks you through some of C++ fundmwnrtasl, common memory pitfalls and how modern C++ features are designed to help you tackle and avoid them.
+
+If however, you are familiar with C++ constructs (i.e variables, loops, functions), feel free to skip ahead towards the [memory-and-ownership](memory-and-ownership/ "mention") section. This introductory workshop is tailored towards begineers so you might find the content a bit brief.
+
 ### Who Am I?
 
 I'm Benn Tan, a computer science undergraduate from the National University of Singapore and a core member of NUS Hackers.
