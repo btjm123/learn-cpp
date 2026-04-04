@@ -66,7 +66,7 @@ A `for` loop is useful when we know how many times we want to repeat something.
 <table><thead><tr><th width="353.73614501953125"></th><th></th></tr></thead><tbody><tr><td><pre class="language-cpp" data-title="main.cpp"><code class="lang-cpp">for (int i = 1; i &#x3C;= 5; i++) {
     std::cout &#x3C;&#x3C; i &#x3C;&#x3C; std::endl;
 }
-</code></pre></td><td><img src="../.gitbook/assets/image.png" alt="" data-size="original"></td></tr></tbody></table>
+</code></pre></td><td><img src="../.gitbook/assets/image (2).png" alt="" data-size="original"></td></tr></tbody></table>
 
 #### break / continue
 
