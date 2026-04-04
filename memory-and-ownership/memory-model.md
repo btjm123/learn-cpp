@@ -31,17 +31,19 @@ To jog your memory, all the previous variable declarations in  [variables.md](..
 
 {% code title="" %}
 ```cpp
-int x = 5;
-int arr[3] = {10, 20, 30}; 
-
-int x = 10;
-int* p = &x;
-
-// this copies the string literal onto the array on the stack
-char str[] = "hello";
-
-// BELOW HOWEVER IS NOT ON STACK, since it's pointing to read-only memory
-const char* str2 = "world"; 
+int main () {
+    int x = 5;
+    int arr[3] = {10, 20, 30}; 
+    
+    int x = 10;
+    int* p = &x;
+    
+    // this copies the string literal onto the array on the stack
+    char str[] = "hello";
+    
+    // BELOW HOWEVER IS NOT ON STACK, since it's pointing to read-only memory
+    const char* str2 = "world"; 
+}
 ```
 {% endcode %}
 
