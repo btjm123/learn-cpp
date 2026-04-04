@@ -27,6 +27,21 @@ This is also the reason why uninitialized variables on the stack possess garbage
 
 </details>
 
+To jog your memory, all the previous variable declarations in  [variables.md](../cpp-fundamentals/variables.md "mention") and  [pointers.md](pointers.md "mention") were all allocated on the stack.
+
+{% code title="" %}
+```cpp
+int x = 5;
+int arr[3] = {10, 20, 30}; 
+
+int x = 10;
+int* p = &x;
+
+// this copies the string literal onto the array on the stack
+char str[] = "hello";
+```
+{% endcode %}
+
 Consider the following example (please ignore the implementation details of `Person`  class for now)
 
 {% code title="main.cpp" %}
