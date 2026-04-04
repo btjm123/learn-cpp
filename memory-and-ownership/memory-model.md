@@ -39,6 +39,9 @@ int* p = &x;
 
 // this copies the string literal onto the array on the stack
 char str[] = "hello";
+
+// BELOW HOWEVER IS NOT ON STACK, since it's pointing to read-only memory
+const char* str2 = "world"; 
 ```
 {% endcode %}
 
