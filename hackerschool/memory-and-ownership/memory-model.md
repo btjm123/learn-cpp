@@ -4,7 +4,7 @@
 
 Variables can either be _created_ or _destroyed._ They can also exists on different locations (i.e the **stack**, **heap** or **static storage)**&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 10.36.44 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 10.36.44 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Stack vs Heap
 
@@ -19,7 +19,7 @@ Variables created (i.e allocated) on the stack possess automatic storage duratio
 
 <summary>Why is stack allocation fast?</summary>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>src: <a href="https://chessman7.substack.com/p/how-your-code-executes-a-guide-to">https://chessman7.substack.com/p/how-your-code-executes-a-guide-to</a> </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>src: <a href="https://chessman7.substack.com/p/how-your-code-executes-a-guide-to">https://chessman7.substack.com/p/how-your-code-executes-a-guide-to</a> </p></figcaption></figure>
 
 Allocating (and deallocating) variables on the stack is fast as it mainly involves incrementing (and decrementing) the stack pointer.
 
@@ -82,11 +82,11 @@ int main()
 
 The following output is as shown:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 10.52.43 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 10.52.43 PM.png" alt=""><figcaption></figcaption></figure>
 
 Observe that similar to the Last-In-First-Out (LIFO) behaviour of literal stack data structure, objects are constructed in order of declaration. They are also destroyed in order of reverse order.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 10.57.27 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 10.57.27 PM.png" alt=""><figcaption></figcaption></figure>
 
 Note that the behaviour is tied to scope, objects are destroyed as soon as it exits the scope.
 
@@ -98,7 +98,7 @@ Note that the behaviour is tied to scope, objects are destroyed as soon as it ex
     }
     Person p3(20);
 }
-</code></pre></td><td><img src="../.gitbook/assets/Screenshot 2026-04-04 at 10.59.54 PM.png" alt="" data-size="original"></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 10.59.54 PM.png" alt="" data-size="original"></td></tr></tbody></table>
 
 ### Heap
 
@@ -126,7 +126,7 @@ It _appears_ to work when we try running with `clang++ main.cpp -o hello-world`&
 
 But look what happens when I try to run with stricter flags:   `clang++ -std=c++17 -Wall -Wextra -pedantic-errors main.cpp`
 
-![](<../.gitbook/assets/Screenshot 2026-04-04 at 11.11.25 PM.png>)
+![](<../../.gitbook/assets/Screenshot 2026-04-04 at 11.11.25 PM.png>)
 
 This is because VLA (Variable-Length Arrays) are actually not part of standard C++. Indeed, the size of arrays **must** be known at compile-time.&#x20;
 
@@ -140,7 +140,7 @@ int main()
 }
 ```
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.27.58 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 11.27.58 PM.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -165,7 +165,7 @@ int main()
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.21.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 11.21.05 PM.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -215,6 +215,6 @@ int main() {
 
 The above is an example of [**undefined behavior**](https://stackoverflow.com/questions/28727439/is-it-undefined-behavior-to-dereference-a-dangling-pointer)**.** For me, it prints 0 but the C++ standard makes no guarantees about what happens.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.38.40 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 11.38.40 PM.png" alt=""><figcaption></figcaption></figure>
 
 It could also potentially print 5, print garbage values or crash through a segmentation fault.

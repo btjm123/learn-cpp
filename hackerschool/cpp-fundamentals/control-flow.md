@@ -57,7 +57,7 @@ while (x &#x3C;= 5) {
     std::cout &#x3C;&#x3C; x &#x3C;&#x3C; std::endl;
     x++;
 }
-</code></pre></td><td><img src="../.gitbook/assets/Screenshot 2026-04-01 at 12.19.51 PM.png" alt="" data-size="original"></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/Screenshot 2026-04-01 at 12.19.51 PM.png" alt="" data-size="original"></td></tr></tbody></table>
 
 #### for loop
 
@@ -66,7 +66,7 @@ A `for` loop is useful when we know how many times we want to repeat something.
 <table><thead><tr><th width="353.73614501953125"></th><th></th></tr></thead><tbody><tr><td><pre class="language-cpp" data-title="main.cpp"><code class="lang-cpp">for (int i = 1; i &#x3C;= 5; i++) {
     std::cout &#x3C;&#x3C; i &#x3C;&#x3C; std::endl;
 }
-</code></pre></td><td><img src="../.gitbook/assets/image (2).png" alt="" data-size="original"></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/image (2).png" alt="" data-size="original"></td></tr></tbody></table>
 
 #### break / continue
 
@@ -80,13 +80,13 @@ A `for` loop is useful when we know how many times we want to repeat something.
     }
     std::cout &#x3C;&#x3C; i &#x3C;&#x3C; std::endl;
 }
-</code></pre></td><td><p><img src="../.gitbook/assets/Screenshot 2026-04-01 at 12.25.16 PM.png" alt="" data-size="original"></p><p></p></td></tr><tr><td><pre class="language-cpp" data-title="main.cpp"><code class="lang-cpp">for (int i = 1; i &#x3C;= 5; i++) {
+</code></pre></td><td><p><img src="../../.gitbook/assets/Screenshot 2026-04-01 at 12.25.16 PM.png" alt="" data-size="original"></p><p></p></td></tr><tr><td><pre class="language-cpp" data-title="main.cpp"><code class="lang-cpp">for (int i = 1; i &#x3C;= 5; i++) {
     if (i == 3) {
         continue;
     }
     std::cout &#x3C;&#x3C; i &#x3C;&#x3C; std::endl;
 }
-</code></pre></td><td><img src="../.gitbook/assets/Screenshot 2026-04-01 at 12.24.30 PM.png" alt="" data-size="original"></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/Screenshot 2026-04-01 at 12.24.30 PM.png" alt="" data-size="original"></td></tr></tbody></table>
 
 ### Functions
 

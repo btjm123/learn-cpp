@@ -15,7 +15,7 @@ int* p_arr = arr;          // pointer to array
 
 Visually, this is how an array is represented:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-05 at 12.46.02 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-05 at 12.46.02 AM.png" alt=""><figcaption></figcaption></figure>
 
 Note that:
 
@@ -100,7 +100,7 @@ int main() {
 
 Notice when we compile, we get a warning:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-05 at 1.17.41 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-05 at 1.17.41 AM.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -114,7 +114,7 @@ Notice when we compile, we get a warning:
 
 In fact, if you try compiling the program with stricter flags: `clang++ -std=c++17 -Wall -Wextra -pedantic-errors main.cpp -o hello-world`, the compiler rejects the code entirely.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-05 at 1.20.16 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-05 at 1.20.16 AM.png" alt=""><figcaption></figcaption></figure>
 
 To squash this, we can use `const char *`  to assert that we are not going to modify the string.
 

@@ -26,7 +26,7 @@ A software update window will pop up. You will need to agree to the licensing ag
 
 If all goes well, you should be greeted with:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-01 at 1.36.05 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-01 at 1.36.05 AM.png" alt=""><figcaption></figcaption></figure>
 
 #### Windows
 

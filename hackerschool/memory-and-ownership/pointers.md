@@ -14,7 +14,7 @@ But sometimes, we don't want the value itself, rather we will want to know **whe
 
 The variable `x` could have some address like `0x100..`.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.44.10 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 11.44.10 PM.png" alt=""><figcaption></figcaption></figure>
 
 We don't know so lets find out using the ampersand `&` operator.
 
@@ -28,7 +28,7 @@ int main()
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.46.24 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 11.46.24 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Type of Pointers
 
@@ -47,7 +47,7 @@ int main()
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.52.29 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 11.52.29 PM.png" alt=""><figcaption></figcaption></figure>
 
 The output may look cryptic but:
 
@@ -61,7 +61,7 @@ Indeed, we can write it like so:
     int x = 10;
     int* p = &#x26;x;
 }
-</code></pre></td><td><img src="../.gitbook/assets/Screenshot 2026-04-04 at 11.59.56 PM.png" alt=""></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/Screenshot 2026-04-04 at 11.59.56 PM.png" alt=""></td></tr></tbody></table>
 
 ### De-referencing
 
@@ -92,7 +92,7 @@ Yes we can! Since the pointer `p`  stores an address, we can dereference the poi
     std::cout &#x3C;&#x3C; "value of x: " &#x3C;&#x3C; x &#x3C;&#x3C; std::endl;
     std::cout &#x3C;&#x3C; "value of y: " &#x3C;&#x3C; y &#x3C;&#x3C; std::endl;
 }
-</code></pre></td><td><img src="../.gitbook/assets/Screenshot 2026-04-05 at 12.15.36 AM.png" alt=""></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/Screenshot 2026-04-05 at 12.15.36 AM.png" alt=""></td></tr></tbody></table>
 
 Realise while both values of x and y are the same, they are **not** pointing to the same 10. They each contain their own version of 10 (and possess their own memory addresses).&#x20;
 
@@ -116,7 +116,7 @@ int main() {
 
     std::cout &#x3C;&#x3C; x &#x3C;&#x3C; std::endl;   // 20 (x changed!)
 }
-</code></pre></td><td><img src="../.gitbook/assets/Screenshot 2026-04-05 at 12.25.38 AM.png" alt=""></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/Screenshot 2026-04-05 at 12.25.38 AM.png" alt=""></td></tr></tbody></table>
 
 </details>
 
@@ -124,7 +124,7 @@ int main() {
 
 And yes because pointers also have addresses, we can have _pointers that point to a pointer that points to a value._
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th>Code</th><th>Output</th></tr></thead><tbody><tr><td><pre class="language-cpp" data-title="main.cpp"><code class="lang-cpp"><strong>#include &#x3C;iostream>
 </strong>
@@ -145,5 +145,5 @@ int main() {
 
     return 0;
 }
-</code></pre></td><td><img src="../.gitbook/assets/Screenshot 2026-04-05 at 12.27.53 AM.png" alt="" data-size="original"></td></tr></tbody></table>
+</code></pre></td><td><img src="../../.gitbook/assets/Screenshot 2026-04-05 at 12.27.53 AM.png" alt="" data-size="original"></td></tr></tbody></table>
 

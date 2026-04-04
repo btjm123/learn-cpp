@@ -37,13 +37,13 @@ This will produce an executable file called `hello-world` which your computer ca
 
 Each time you make changes to the source code, you will need to compile again.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-01 at 2.03.33 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-01 at 2.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### What Just Happened ?!
 
 Think of a compiler as a black box that simply _**converts**_ source code to machine code.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>src: <a href="https://www.sitesbay.com/cpp/cpp-compiler">https://www.sitesbay.com/cpp/cpp-compiler</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>src: <a href="https://www.sitesbay.com/cpp/cpp-compiler">https://www.sitesbay.com/cpp/cpp-compiler</a></p></figcaption></figure>
 
 <details>
 
@@ -53,7 +53,7 @@ This is beyond the scope of this workshop.
 
 If you happen to be curious:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>src: <a href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html">https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>src: <a href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html">https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html</a></p></figcaption></figure>
 
 Compiling a C++ source code is usually a 4 step process. It composes of&#x20;
 

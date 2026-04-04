@@ -28,7 +28,7 @@ Breaking it down:
 {% hint style="info" %}
 Try augmenting the `Hello, world!` string to something else like your name!
 
-![](<../.gitbook/assets/Screenshot 2026-04-01 at 2.36.09 AM.png>)
+![](<../../.gitbook/assets/Screenshot 2026-04-01 at 2.36.09 AM.png>)
 {% endhint %}
 
 <sub>\[1] Your code will still compile even if you don't return anything from the main function.  This is because C++ implicilty returns 0 at the end of</sub> <sub></sub><sub>`main()`</sub><sub>. For more info, refer</sub> [<sub>here</sub>](https://stackoverflow.com/questions/19293642/why-does-the-main-function-work-with-no-return-value)<sub>.</sub>
@@ -46,7 +46,7 @@ int main()
     std::cout &#x3C;&#x3C; "jia";
     return 0;
 }
-</code></pre></td><td><p><img src="../.gitbook/assets/Screenshot 2026-04-01 at 2.42.36 AM.png" alt="" data-size="original"></p><p></p></td></tr><tr><td><pre class="language-cpp" data-title="main.cpp"><code class="lang-cpp">#include &#x3C;iostream>
+</code></pre></td><td><p><img src="../../.gitbook/assets/Screenshot 2026-04-01 at 2.42.36 AM.png" alt="" data-size="original"></p><p></p></td></tr><tr><td><pre class="language-cpp" data-title="main.cpp"><code class="lang-cpp">#include &#x3C;iostream>
 
 int main()
 {
@@ -55,7 +55,7 @@ int main()
     std::cout &#x3C;&#x3C; "jia";
     return 0;
 }
-</code></pre></td><td><p><img src="../.gitbook/assets/Screenshot 2026-04-01 at 2.43.39 AM.png" alt="" data-size="original"></p><p></p></td></tr></tbody></table>
+</code></pre></td><td><p><img src="../../.gitbook/assets/Screenshot 2026-04-01 at 2.43.39 AM.png" alt="" data-size="original"></p><p></p></td></tr></tbody></table>
 
 ### Input
 
