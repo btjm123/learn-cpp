@@ -1,4 +1,4 @@
-# Program Execution Model
+# 🐫 Program Execution Model
 
 When one develops a C++ program, it does not run directly. Instead, it goes through a fixed sequence of steps before your computer actually understands and executes it.
 

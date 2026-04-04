@@ -1,4 +1,4 @@
-# Arrays & Strings
+# 🐳 Arrays & Strings
 
 Thus far, pointers pointed to a singular variable. But what if we have multiple values stored together (exactly, like an array!)
 

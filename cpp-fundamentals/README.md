@@ -1,4 +1,4 @@
-# C++ Fundamentals
+# 🦂 C++ Fundamentals
 
 This guide aims to provide you with the fundamentals of C++. It's **not** meant to be an exhaustive guide. For more in-depth details, you should refer to the [official C++ reference](https://en.cppreference.com/w/).
 

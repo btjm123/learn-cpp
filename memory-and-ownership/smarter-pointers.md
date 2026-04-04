@@ -1,4 +1,4 @@
-# Smarter Pointers
+# 🐽 Smarter Pointers
 
 As we've seen, we humans are pretty dumb and inept at managing memory.&#x20;
 

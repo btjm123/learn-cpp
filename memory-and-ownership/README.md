@@ -1,4 +1,4 @@
-# Memory & Ownership
+# 🐱 Memory & Ownership
 
 So far, we've been using variables without really thinking **where they live** / **who owns them.**
 

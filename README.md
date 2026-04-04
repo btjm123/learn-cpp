@@ -1,4 +1,4 @@
-# Welcome!
+# 🦀 Welcome!
 
 C++ can feel overwhelming!
 

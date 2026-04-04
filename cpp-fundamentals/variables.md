@@ -1,4 +1,4 @@
-# Variables
+# 🐏 Variables
 
 Now that we are able to accept input and print output externally, we need a mechanism to **store data** inside our program.
 

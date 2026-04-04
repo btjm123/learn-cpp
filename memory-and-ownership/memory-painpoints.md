@@ -1,4 +1,4 @@
-# Memory Painpoints
+# 🐧 Memory Painpoints
 
 Fundamentally, ownership answers the question:&#x20;
 

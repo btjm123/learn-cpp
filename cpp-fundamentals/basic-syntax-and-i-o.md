@@ -1,4 +1,4 @@
-# Basic Syntax & I/O
+# 🧚‍♀️ Basic Syntax & I/O
 
 Let's kick things off by familiarising ourselves with the basic structure of a C++ program.
 
